@@ -30,9 +30,11 @@ struct LogOut: View {
                             .padding(.top,10)
                         
                         HStack{
-                            Text("Cancel")
-                                .foregroundColor(.blue)
-                                .padding(.trailing,30)
+                            NavigationLink(destination: AccountView()){
+                                Text("Cancel")
+                                    .foregroundColor(.blue)
+                                    .padding(.trailing,30)
+                            }
                             
                             Divider()
                                

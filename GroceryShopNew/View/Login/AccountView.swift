@@ -12,7 +12,7 @@ struct AccountView: View {
         NavigationStack{
             VStack{
                 HStack{
-                    Image("u1")
+                    Image("u2")
                         .resizable()
                         .scaledToFit()
                         .frame(width:60, height:60)
