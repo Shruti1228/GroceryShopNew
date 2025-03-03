@@ -22,9 +22,8 @@ struct trialresting: View {
             Button("click me") {
                 withAnimation {
                     isVisible.toggle()
-                }}}
-    }
-}
+                }}}//this file is for research purpose.......
+    }}
 
 #Preview {
     trialresting()
