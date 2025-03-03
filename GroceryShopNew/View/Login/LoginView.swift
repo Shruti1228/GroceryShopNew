@@ -35,7 +35,7 @@ struct LoginView: View {
                     NavigationLink{
                         SignInView()
                     } label: {
-                        Text("Continue with SighIn")
+                        Text("Continue with Sign In")
                             .frame(maxWidth: .infinity , minHeight: 60 )
                             .foregroundColor(.white)
                             .background(Color.blue)
@@ -46,7 +46,7 @@ struct LoginView: View {
                     NavigationLink{
                         SignUpView()
                     } label: {
-                        Text("Continue with SignUp")
+                        Text("Continue with Sign Up")
                             .frame(maxWidth: .infinity , minHeight: 60 )
                             .foregroundColor(.white)
                             .background(Color.green)
@@ -83,22 +83,6 @@ struct LoginView: View {
                             .frame(width:50, height:50)
                     }
                 }
-                VStack{
-                    HStack{
-                        NavigationLink{
-                            WelcomeView()
-                        } label: {
-                            Image("back")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width:20, height:20)
-                        }
-                        Spacer()
-                    }
-                 Spacer()
-                }
-                .padding(.top,60)
-                .padding(.horizontal,20)
             }
             .navigationTitle("")
             .navigationBarBackButtonHidden()
