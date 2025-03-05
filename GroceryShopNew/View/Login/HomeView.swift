@@ -25,7 +25,7 @@ struct HomeView: View {
                         Text("Vadodara")
                         .foregroundColor(.black)
                         .font(Font.custom("Gilroy-Semibold", size:19))
-                        
+                        //testing
                 }
                 .padding(.top,10)
                 .padding(.bottom,5)
