@@ -23,10 +23,12 @@ struct BeveragesView: View {
                     .font(Font.custom("Gilroy-SemiBold", size: 25))
                     .padding(.trailing,88)
                 
-                Image("filter_ic")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width:20, height:20)
+                NavigationLink(destination: FilterView()){
+                    Image("filter_ic")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width:20, height:20)
+                }
             }
             
             ScrollView{

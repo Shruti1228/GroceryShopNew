@@ -15,10 +15,12 @@ struct EggView: View {
                     .frame(width:330, height:30)
                     .padding(.trailing,6)
                 
-                Image("filter_ic")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 20, height:20)
+                NavigationLink(destination: FilterView()){
+                    Image("filter_ic")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 20, height:20)
+                }
             }
             .padding(.top,15)
             ScrollView{
