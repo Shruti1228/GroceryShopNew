@@ -1,8 +1,8 @@
 //
-//  ContentView.swift
-//  GroceryShop
+//  WelcomeView.swift
+//  GroceryShopNew
 //
-//  Created by student on 10/01/25.
+//  Created by student on 07/03/25.
 //
 
 import SwiftUI
