@@ -33,6 +33,7 @@ struct AccountView: View {
                 .padding(.bottom,25)
                 
                 Divider()
+                
                 HStack{
                     Image("a_order")
                         .resizable()
@@ -44,15 +45,16 @@ struct AccountView: View {
                         .padding(.leading,10)
                         .padding(.trailing,210)
                     
-                    Image("detail_open")
+                    Image("blacknext")
                         .resizable()
                         .scaledToFit()
-                        .frame(width:20, height:20)
+                        .frame(width:35, height:35)
                 }
-                .padding(.top,10)
-                .padding(.bottom,10)
+                .padding(.top,8)
+                .padding(.bottom,8)
                 
                 Divider()
+                
                 HStack{
                     Image("a_my_detail")
                         .resizable()
@@ -64,15 +66,16 @@ struct AccountView: View {
                         .padding(.leading,10)
                         .padding(.trailing,180)
                     
-                    Image("detail_open")
+                    Image("blacknext")
                         .resizable()
                         .scaledToFit()
-                        .frame(width:20, height:20)
+                        .frame(width:35, height:35)
                 }
-                .padding(.top,10)
-                .padding(.bottom,10)
+                .padding(.top,8)
+                .padding(.bottom,8)
                 
                 Divider()
+                
                 HStack{
                     Image("a_delivery_address")
                         .resizable()
@@ -84,15 +87,16 @@ struct AccountView: View {
                         .padding(.leading,10)
                         .padding(.trailing,126)
                     
-                    Image("detail_open")
+                    Image("blacknext")
                         .resizable()
                         .scaledToFit()
-                        .frame(width:20, height:20)
+                        .frame(width:35, height:35)
                 }
-                .padding(.top,10)
-                .padding(.bottom,10)
+                .padding(.top,8)
+                .padding(.bottom,8)
                 
-                Divider()
+               Divider()
+                
                 HStack{
                     Image("a_my_detail")
                         .resizable()
@@ -104,15 +108,16 @@ struct AccountView: View {
                         .padding(.leading,10)
                         .padding(.trailing,110)
                     
-                    Image("detail_open")
+                    Image("blacknext")
                         .resizable()
                         .scaledToFit()
-                        .frame(width:20, height:20)
+                        .frame(width:35, height:35)
                 }
-                .padding(.top,10)
-                .padding(.bottom,10)
+                .padding(.top,8)
+                .padding(.bottom,8)
                 
                 Divider()
+                
                 HStack{
                     Image("a_promocode")
                         .resizable()
@@ -124,15 +129,16 @@ struct AccountView: View {
                         .padding(.leading,10)
                         .padding(.trailing,170)
                     
-                    Image("detail_open")
+                    Image("blacknext")
                         .resizable()
                         .scaledToFit()
-                        .frame(width:20, height:20)
+                        .frame(width:35, height:35)
                 }
-                .padding(.top,10)
-                .padding(.bottom,10)
+                .padding(.top,8)
+                .padding(.bottom,8)
                 
                 Divider()
+                
                 HStack{
                     Image("a_noitification")
                         .resizable()
@@ -144,15 +150,16 @@ struct AccountView: View {
                         .padding(.leading,10)
                         .padding(.trailing,170)
                     
-                    Image("detail_open")
+                    Image("blacknext")
                         .resizable()
                         .scaledToFit()
-                        .frame(width:20, height:20)
+                        .frame(width:35, height:35)
                 }
-                .padding(.top,10)
-                .padding(.bottom,10)
+                .padding(.top,8)
+                .padding(.bottom,8)
                 
                 Divider()
+                
                 HStack{
                     Image("a_help")
                         .resizable()
@@ -164,15 +171,16 @@ struct AccountView: View {
                         .padding(.leading,10)
                         .padding(.trailing,234)
                     
-                    Image("detail_open")
+                    Image("blacknext")
                         .resizable()
                         .scaledToFit()
-                        .frame(width:20, height:20)
+                        .frame(width:35, height:35)
                 }
-                .padding(.top,10)
-                .padding(.bottom,10)
+                .padding(.top,8)
+                .padding(.bottom,8)
                 
                 Divider()
+                
                 HStack{
                     Image("a_about")
                         .resizable()
@@ -184,13 +192,13 @@ struct AccountView: View {
                         .padding(.leading,10)
                         .padding(.trailing,220)
                     
-                    Image("detail_open")
+                    Image("blacknext")
                         .resizable()
                         .scaledToFit()
-                        .frame(width:20, height:20)
+                        .frame(width:35, height:35)
                 }
-                .padding(.top,10)
-                .padding(.bottom,10)
+                .padding(.top,8)
+                .padding(.bottom,8)
                 
                 Divider()
                 
@@ -208,7 +216,7 @@ struct AccountView: View {
                 .frame(maxWidth: .infinity , minHeight: 60)
                 .foregroundColor(.green)
                 .background(Color.gray.opacity(0.3))
-                .cornerRadius(40)
+                .cornerRadius(19)
                 .padding(.horizontal,20)
                 .padding(.top,30)
             }
