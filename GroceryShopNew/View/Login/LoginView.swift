@@ -39,7 +39,7 @@ struct LoginView: View {
                             .frame(maxWidth: .infinity , minHeight: 60 )
                             .foregroundColor(.white)
                             .background(Color.blue)
-                            .cornerRadius(25)
+                            .cornerRadius(19)
                             .padding(.horizontal,20)
                     }
                     
@@ -50,7 +50,7 @@ struct LoginView: View {
                             .frame(maxWidth: .infinity , minHeight: 60 )
                             .foregroundColor(.white)
                             .background(Color.green)
-                            .cornerRadius(25)
+                            .cornerRadius(19)
                             .padding(.horizontal,20)
                     }
                     

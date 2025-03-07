@@ -53,7 +53,7 @@ struct testing: View {
                     .frame(maxWidth: .infinity , minHeight: 60)
                     .foregroundColor(.white)
                     .background(Color.green)
-                    .cornerRadius(20)
+                    .cornerRadius(19)
                     .padding(.horizontal, 20)
                     .padding(.top, 100)
                     

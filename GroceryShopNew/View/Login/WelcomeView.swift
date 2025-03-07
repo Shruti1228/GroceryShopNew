@@ -44,7 +44,7 @@ struct WelcomeView: View {
                             .frame(maxWidth: .infinity, minHeight: 60)
                             .foregroundColor(.white)
                             .background(Color.green)
-                            .cornerRadius(25)
+                            .cornerRadius(19)
                             .padding(.bottom,60)
                             .padding(.horizontal,15)
                         
