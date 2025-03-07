@@ -42,7 +42,7 @@ struct OrderPlaced: View {
                     .frame(maxWidth: .infinity , minHeight: 60)
                     .foregroundColor(.white)
                     .background(Color.green)
-                    .cornerRadius(40)
+                    .cornerRadius(20)
                     .padding(.horizontal,20)
                     .padding(.top,100)
                     
