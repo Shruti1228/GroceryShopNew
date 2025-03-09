@@ -102,8 +102,8 @@ struct HomeView: View {
                         .font(Font.custom("SemiBold", size: 15))
                         .frame(maxWidth: .infinity, alignment: .trailing)
                     }
-                    .padding(.top, 10)
                     .padding(.horizontal,20)
+                    .padding(.top, 10)
                    
                     ScrollView(.horizontal,showsIndicators: false){
                         HStack{

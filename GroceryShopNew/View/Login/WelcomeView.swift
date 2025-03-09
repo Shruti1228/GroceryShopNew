@@ -43,7 +43,7 @@ struct WelcomeView: View {
                         Text("Get Started")
                             .frame(maxWidth: .infinity, minHeight: 60)
                             .foregroundColor(.white)
-                            .background(Color.green)
+                            .background(Color.green.opacity(0.6))
                             .cornerRadius(19)
                             .padding(.bottom,60)
                             .padding(.horizontal,15)
