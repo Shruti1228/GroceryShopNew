@@ -43,7 +43,7 @@ struct AccountView: View {
                     Text("Orders")
                         .font(Font.custom("Gilroy-Regular", size: 20))
                         .padding(.leading,10)
-                        .padding(.trailing,210)
+                    Spacer()
                     
                     Image("blacknext")
                         .resizable()
@@ -64,7 +64,8 @@ struct AccountView: View {
                     Text("My Details")
                         .font(Font.custom("Gilroy-Regular", size: 20))
                         .padding(.leading,10)
-                        .padding(.trailing,180)
+                    
+                    Spacer()
                     
                     Image("blacknext")
                         .resizable()
@@ -85,7 +86,8 @@ struct AccountView: View {
                     Text("Delivery Address")
                         .font(Font.custom("Gilroy-Regular", size: 20))
                         .padding(.leading,10)
-                        .padding(.trailing,126)
+                    
+                    Spacer()
                     
                     Image("blacknext")
                         .resizable()
@@ -106,7 +108,8 @@ struct AccountView: View {
                     Text("Payment Methods")
                         .font(Font.custom("Gilroy-Regular", size: 20))
                         .padding(.leading,10)
-                        .padding(.trailing,110)
+                    
+                    Spacer()
                     
                     Image("blacknext")
                         .resizable()
@@ -127,7 +130,8 @@ struct AccountView: View {
                     Text("Promo Cord")
                         .font(Font.custom("Gilroy-Regular", size: 20))
                         .padding(.leading,10)
-                        .padding(.trailing,170)
+                    
+                    Spacer()
                     
                     Image("blacknext")
                         .resizable()
@@ -148,7 +152,8 @@ struct AccountView: View {
                     Text("Notification")
                         .font(Font.custom("Gilroy-Regular", size: 20))
                         .padding(.leading,10)
-                        .padding(.trailing,170)
+                    
+                    Spacer()
                     
                     Image("blacknext")
                         .resizable()
@@ -169,7 +174,10 @@ struct AccountView: View {
                     Text("Help")
                         .font(Font.custom("Gilroy-Regular", size: 20))
                         .padding(.leading,10)
-                        .padding(.trailing,234)
+                    
+                    Spacer()
+                    
+                    Spacer()
                     
                     Image("blacknext")
                         .resizable()
@@ -190,7 +198,8 @@ struct AccountView: View {
                     Text("About")
                         .font(Font.custom("Gilroy-Regular", size: 20))
                         .padding(.leading,10)
-                        .padding(.trailing,220)
+                    
+                    Spacer()
                     
                     Image("blacknext")
                         .resizable()
@@ -221,6 +230,7 @@ struct AccountView: View {
                 .padding(.top,30)
             }
             .padding(.bottom,35)
+            .padding(.horizontal,20)
         }
     }
 }
