@@ -12,6 +12,7 @@ struct BeveragesItemView: View {
     @State var productName: String
     @State var description: String
     @State var productPrice: String
+    @State private var isFavorited: Bool = false
     
     var body: some View {
         NavigationStack{
@@ -20,12 +21,26 @@ struct BeveragesItemView: View {
                 .frame(width: 165, height: 220)
                 .overlay(
                     VStack(alignment: .leading) {
-                        Image(productImage)  // Display the image passed as a parameter
-                            .resizable()
-                            .frame(width: 50, height: 100)
-                            .padding()
-                            .padding(.leading,20)
-                        
+                        HStack{
+                            
+                            Image(productImage)  // Display the image passed as a parameter
+                                .resizable()
+                                .frame(width: 50, height: 100)
+                                .padding()
+                                .padding(.leading,20)
+                            
+                            Button(action: {
+                                isFavorited.toggle()
+                            }) {
+                                Image(systemName: isFavorited ? "heart.fill" : "heart")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 24, height: 24)
+                                    .foregroundColor(isFavorited ? .red : .gray)
+                                    .padding(.bottom,95)
+                            }
+                            
+                        }
                         Text(productName)  // Dynamic product name
                             .font(.system(size: 16, weight: .semibold))
                         
@@ -38,6 +53,8 @@ struct BeveragesItemView: View {
                                 .font(.system(size: 16, weight: .semibold))
                                 .padding(.top,5)
                                 .foregroundColor(.black)
+                            
+                            Spacer()
                             
                             Button(action: {}) {
                                 Image("add")  // Ensure this image exists

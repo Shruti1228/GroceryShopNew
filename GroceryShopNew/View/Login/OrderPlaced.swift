@@ -43,9 +43,8 @@ struct OrderPlaced: View {
                         .font(.title)
                         .padding(.bottom, 20)
                        
-                    Text("Your items have been placed and are on\n their way to being processed")
+                    Text("Your items have been placed and are\n on their way to being processed")
                         .multilineTextAlignment(.center)
-                        .padding(.bottom, 40)
                         .foregroundColor(.black.opacity(0.5))
                     
                     Button(action: {}, label: {
